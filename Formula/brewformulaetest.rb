@@ -12,13 +12,9 @@ class Brewformulaetest < Formula
 
   def install
     system "make", "homebrew", "OUTPUT_FOLDER=#{prefix}"
-    #bin.install_symlink "#{bin}/bftest" #=> "wx-config-#{version.major_minor}"
-    #bin.install_symlink "#{prefix}/bftest"
   end
 
   test do
-    # The installed folder is not in the path, so use the entire path to any
-    # executables being tested: `system "#{bin}/program", "do", "something"`.
     system "false"
   end
 end
