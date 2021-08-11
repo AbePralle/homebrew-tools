@@ -1,8 +1,8 @@
 class Rogo < Formula
   desc "Rogue-based build system"
   homepage "https://github.com/AbePralle/Rogo"
-  url "https://github.com/AbePralle/Rogo/archive/refs/tags/v1.0.tar.gz"
-  sha256 "992fa01d575d9e1ad9d8a81c20f0b660975f9fbc78a629ac55759757116db1a9"
+  url "https://github.com/AbePralle/Rogo/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "29a3747c3ff374f5c9b00a07af8b7ea4a53e796a82a760e2fac78444813580b1"
   license "MIT"
 
   depends_on "abepralle/tools/roguec"
